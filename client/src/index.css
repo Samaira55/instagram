@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.material-icons {
+  color: black;
+}
+.icns {
+  color: black;
+  margin-left: -10px;
+  font-weight: 500;
+}
+.ico2{
+  margin-left: -10px;
+}
+.logout{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+  align-items: center;
+
+}
+
+.search-input {
+  border: 1px solid #000;
+  border: 1px solid #ccc; /* add a border around the input field */
+  padding: 2px 8px !important; /* add some padding */
+  border: 1px solid #ccc; /* add a 1px solid gray border */
+
+}
+input[type=text] {
+  box-sizing: border-box;
+  border-radius: 5px !important;
+  height: 22px !important;
+  width: 80% !important;
+  float: right;
+  margin-top: 20px !important;
+  align-items: center;
+  border: 1px solid #ccc !important; /* add a 1px solid gray border */
+  -webkit-transition: 0.5s;
+  padding: 2px 8px !important; /* add some padding */
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 1px solid #555;
+  border-bottom: blue;
+}
+input{
+  border: 1px solid #000;
+}
+
+.ico{
+  /* float: right; */
+  margin-left: 250px;
+  justify-content:center;
+  display: flex;
+ 
+}
+.brand-logo {
+  width: 150px; /* Set the desired width */
+  height: auto; /* Allow the height to adjust proportionally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 20px;
+  float: left;
+}
+.nav-wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navi{
+  box-shadow: none !important;
+  height: 20px;
+}
+.navi ul.right li {
+  margin: 0;
+  padding: 0;
+}
+
+.navi  ul.right li a {
+  padding: 0;
+  margin: 0;
+}
+
+/* subnav */
+nav .brnd-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 2px 2px;
+  color: black;
+  justify-content: center;
+  margin-bottom: 5px;
+    bottom: -235%;
+    font-weight: 600;
+    margin-left: 16px;  
+
+}
+.mico i{
+  padding: 0 15px;
+}
+
+/* dashboard */
+.child{
+  display: flex;
+  justify-content: center;
+}
+.card {
+  
+  /* width: 40%;
+  height: 317px;
+  border: 1px solid #ccc;
+  margin-left: 24px;
+  padding-bottom: 30px;
+  border: 1px solid #ccc;
+  border-top-color: #007eff;
+  border-top: 4px solid #007eff; */
+
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  border-top: 4px solid #007eff; 
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+.snap img{
+  max-width: 1200px;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+.logobtn{
+position: absolute;
+bottom:48%;
+text-align: center;
+margin-left: 570px;
+size: 200px;
+}
+.btn{
+  font-weight: 600;
+  size: 200px;
+  padding: 0px 26px;
+    text-align: center;
+    letter-spacing: 3.5px;
+ 
+}
+.card2 {
+  
+  display: flex;
+  /* width: 50%; */
+  height: 200px;
+  padding: 22px 27px;
+
+}
+.refresh{
+  display: flex;
+  margin-left: 15px;
+  font-size:14px ;
+  gap: 2px;
+  align-items: start;
+ color: #555;
+}
+.refresh .icns{
+  display: flex;
+  font-size:18px ;
+  gap: 2px;
+  align-items: start;
+  margin-top: 2px;
+  color: #555;
+
+}
+.card-img {
+  flex-basis: 30%;
+}
+
+.card-img img {
+  width: 80%;
+  height: 90%;
+  /* object-fit: cover; */
+}
+.heead {
+  margin-left: 28px !important;
+  font-size: bold !important;
+  font-weight: bold !important;
+  font-size: 27px !important;
+  margin-bottom: 17px !important;
+}
+.intro{
+  margin-top: 30px;
+  margin-left: 42px;
+  font-weight: bold
+}
+
+.card-text {
+  flex-basis: 80%;
+  margin-bottom: 10px;
+}
+
+.card-text h2 {
+  font-size: 1.5rem;
+
+}
+
+.card-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+/* dashboard */
+.lyst {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lyst > * {
+  flex: 1 1 calc(50% - 20px);
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .lyst > * {
+    flex-basis: 100%;
+  }
+}
